@@ -8,6 +8,7 @@
 
 # Exit immediately if a command exits with a non-zero status.
 set -euo pipefail
+set +e
 
 # Function to handle errors
 error_handler() {
